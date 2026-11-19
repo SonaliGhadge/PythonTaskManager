@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local database
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# Test and editor artifacts
+.pytest_cache/
+.coverage
+.vscode/
